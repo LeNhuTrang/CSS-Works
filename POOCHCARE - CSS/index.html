@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poochcare</title>
+
+    <!-- bootstrap  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+
+  <body>
+    <!-- HEADER STARTS -->
+    <header>
+      <div class="container box" >
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand text-success py-2" href="#">Pooch Care</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link text-success mx-3 p-0 pt-2" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mx-3 p-0 pt-2" href="#"
+                  >About <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mx-3 p-0 pt-2" href="#"
+                  >Services <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mx-3 p-0 pt-2" href="#"
+                  >Gallery <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle mx-3 p-0 pt-2 text-dark"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#">Blog posts</a>
+                  <a class="dropdown-item" href="#">Blog single</a>
+                  <a class="dropdown-item" href="#">Landing Page</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark mx-3 p-0 pt-2" href="#"
+                  >Contact<span class="sr-only">(current)</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <button class="moon"><i class="fa fa-moon"></i></button>
+        <button class="sun"><i class="fa fa-sun"></i></button>
+      </div>
+    </header>
+    <!-- HEADER ENDS  -->
+
+    <!-- SLIDER STARTS  -->
+    <section class="slider" id="slider">
+      <div class="slider__content">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleCaptions"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/banner1.jpg" class="d-block w-100" alt="..." />
+
+              <div class="empty">
+                <div class="innerEmpty">
+                  <!-- <div class="outterWrap"> -->
+                    <div class="carouselWrap">
+                      <div class="carousel-caption d-block">
+                        <h5>Quality things for loving pets</h5>
+                        <p>Keep your pets smiling.</p>
+                        <button>Read More</button>
+                        <button class="contact-btn">Contact Us</button>
+                      </div>
+                    </div>
+                  <!-- </div> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="./img/banner2.jpg" class="d-block w-100" alt="..." />
+
+              <div class="empty">
+                <div class="innerEmpty">
+                  <!-- <div class="outterWrap"> -->
+                    <div class="carouselWrap carouselWrap2">
+                      <div class="carousel-caption d-block">
+                        <h5>Quality things for loving pets</h5>
+                        <p>Keep your pets smiling.</p>
+                        <button>Read More</button>
+                        <button class="contact-btn">Contact Us</button>
+                      </div>
+                    </div>
+                  <!-- </div> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="./img/banner3.jpg" class="d-block w-100" alt="..." />
+              <div class="empty">
+                <div class="innerEmpty">
+                  <!-- <div class="outterWrap"> -->
+                    <div class="carouselWrap">
+                      <div class="carousel-caption d-block">
+                        <h5>Quality things for loving pets</h5>
+                        <p>Keep your pets smiling.</p>
+                        <button>Read More</button>
+                        <button class="contact-btn">Contact Us</button>
+                      </div>
+                    </div>
+                  <!-- </div> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="./img/banner4.jpg" class="d-block w-100" alt="..." />
+
+              <div class="empty">
+                <div class="innerEmpty">
+                  <!-- <div class="outterWrap"> -->
+                    <div class="carouselWrap carouselWrap2">
+                      <div class="carousel-caption d-block">
+                        <h5>Quality things for loving pets</h5>
+                        <p>Keep your pets smiling.</p>
+                        <button>Read More</button>
+                        <button class="contact-btn">Contact Us</button>
+                      </div>
+                    </div>
+                  <!-- </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SLIDER ENDS  -->
+
+    <!-- STANDING-BAR STARTS -->
+    <section class="standy">
+      <div class="standy__content">
+          <div class="standy__item">
+            <a href="#">
+              <i class="fa fa-angle-double-right"></i>
+            </a>
+          </div>
+          <div class="standy__item">
+            <a href="#">
+              <i class="fa fa-arrow-left"></i>
+              Back</a
+            >
+          </div>
+          <div class="standy__item">
+            <a href="#">
+              <i class="fa fa-download"></i>
+              Download</a
+            >
+          </div>
+          <div class="standy__item">
+            <a href="#">
+              <i class="fa fa-shopping-cart"></i>
+              Buy</a
+            >
+          </div>
+      </div>
+    </section>
+    <!-- STANDING-BAR ENDS  -->
+
+    <!-- ABOUT STARTS  -->
+    <section class="about for__margin">
+      <div class="about__content box">
+        <div class="content__wrapper">
+          <span class="span-style">ABOUT US</span>
+          <h1 class="heading-style">We Love Your Pets Like They Are Our Own</h1>
+          <p class="p-style">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur hic odio voluptatem tenetur consequatur. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales
+            quis.
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT ENDS  -->
+
+    <!-- SERVICES STARTS  -->
+    <section class="services">
+      <div class="services__content box">
+        <div class="services__item">
+          <i class="fa fa-snowflake"></i>
+          <h3>Dog Walking</h3>
+          <p>
+            Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet
+            laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.
+          </p>
+          <button>Read More</button>
+        </div>
+
+        <div class="services__item">
+          <i class="fa fa-utensils"></i>
+          <h3>Healthy Meals</h3>
+          <p>
+            Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet
+            laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.
+          </p>
+          <button>Read More</button>
+        </div>
+
+        <div class="services__item">
+          <i class="fa fa-sign-language"></i>
+          <h3>Pet Sitting</h3>
+          <p>
+            Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet
+            laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.
+          </p>
+          <button>Read More</button>
+        </div>
+
+        <div class="services__item">
+          <i class="fa fa-sitemap"></i>
+          <h3>Dog Activities</h3>
+          <p>
+            Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet
+            laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.
+          </p>
+          <button>Read More</button>
+        </div>
+
+        <div class="services__item">
+          <i class="fa fa-shower"></i>
+          <h3>Pet Daycare</h3>
+          <p>
+            Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet
+            laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.
+          </p>
+          <button>Read More</button>
+        </div>
+
+        <div class="services__item">
+          <i class="fa fa-user-md"></i>
+          <h3>Pet Grooming</h3>
+          <p>
+            Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet
+            laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES ENDS  -->
+
+    <!-- OFFER STARTS  -->
+    <section class="offer">
+      <div class="offer__content box">
+        <div class="offer__img">
+          <img src="./img/ab.jpg" alt="" />
+        </div>
+
+        <div class="offer__text">
+          <div class="text__wrap">
+            <span class="span-style"> WHY CHOOSE US</span>
+            <h1 class="heading-style">What We Offer For You</h1>
+            <p class="p-style">
+              Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud.Lorem ipsum dolor sit amet,
+              consectetur adipisicingelit,
+            </p>
+          </div>
+          <div class="offer__list">
+            <p><i class="fa fa-check"></i>Certified Groomer</p>
+            <p><i class="fa fa-check"></i>10 Years of Experience</p>
+            <p><i class="fa fa-check"></i>Pet Lover</p>
+            <p><i class="fa fa-check"></i>Customer Supports</p>
+            <p><i class="fa fa-check"></i>Veterinary Help</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OFFER ENDS  -->
+
+    <!-- NUMBER STARTS  -->
+    <section class="number">
+      <div class="number__content box">
+        <div class="number__item">
+          <h1 class="counter">730</h1>
+          <p>Happy Clients</p>
+        </div>
+        <div class="number__item">
+          <h1 class="counter">80</h1>
+          <p>Professional</p>
+        </div>
+        <div class="number__item">
+          <h1 class="counter">812</h1>
+          <p>Adoptted Pets</p>
+        </div>
+        <div class="number__item">
+          <h1 class="counter">90</h1>
+          <p>Awards</p>
+        </div>
+      </div>
+    </section>
+    <!-- NUMBER ENDS  -->
+
+    <!-- PLAN STARTS  -->
+    <section class="plan">
+      <div class="plan__content box">
+        <div class="inner__content">
+          <div class="plan__heading">
+            <span class="span-style">Our Plans</span>
+            <h1 class="heading-style">Affordable Packages</h1>
+          </div>
+
+          <div class="plan__packages">
+            <div class="free package__small">
+              <div class="package__small__content">
+                <h1 class="heading-style">Free Package</h1>
+                <p>
+                  <span class="price"><i class="fa fa-dollar-sign"></i>0</span>
+                  /month
+                </p>
+                <ul class="detail">
+                  <li>5 Dog Walk</li>
+                  <li>3 Vet Visit</li>
+                  <li>3 Pet Spa</li>
+                  <li>Free Supports</li>
+                  <li>Customer Support</li>
+                </ul>
+                <button>Buy Now</button>
+              </div>
+            </div>
+
+            <div class="standard">
+              <div class="green__part">
+                <div class="standardpercent">SAVE 10%</div>
+                <h1 class="heading-style">Standard Package</h1>
+                <p>
+                  <span class="price"><i class="fa fa-dollar-sign"></i>89</span>
+                  /month
+                </p>
+              </div>
+
+              <div class="white__part">
+                <ul>
+                  <li>5 Dog Walk</li>
+                  <li>3 Vet Visit</li>
+                  <li>3 Pet Spa</li>
+                  <li>Free Supports</li>
+                  <li>Customer Support</li>
+                </ul>
+                <button>Get Started</button>
+              </div>
+            </div>
+
+            <div class="pro package__small">
+              <div class="package__small__content">
+                <h1 class="heading-style">Pro Package</h1>
+                <p>
+                  <span class="price"><i class="fa fa-dollar-sign"></i>89</span>
+                  /month
+                </p>
+                <ul class="detail">
+                  <li>5 Dog Walk</li>
+                  <li>3 Vet Visit</li>
+                  <li>3 Pet Spa</li>
+                  <li>Free Supports</li>
+                  <li>Customer Support</li>
+                </ul>
+                <button>Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PLAN ENDS  -->
+
+    <!-- VIDEO STARTS  -->
+    <section class="video">
+      <div class="video__content box">
+        <div class="wrapper">
+          <span class="span-style">BETTER PET NUTRITION.</span>
+          <h1 class="heading-style">
+            The Finest Fresh Food And All Your Pet Needs.
+          </h1>
+          <p class="p-style">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum
+            dolor sit amet elit consec tetur adipisi elit. Lorem ipsum dolor sit
+            amet elit consec tetur adipisi elit. Iure voluptatibus explicabo
+            officia.
+          </p>
+        </div>
+
+        <div class="clipEffect">
+          <img src="./img/banner2.jpg" alt="" />
+          <div class="rippleEffect">
+            <div class="containing">
+              <div class="circle">
+                <span style="--i: 1"></span>
+                <span style="--i: 2"></span>
+                <span style="--i: 3"></span>
+                <span style="--i: 4"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="playButton">
+            <a href="https://youtu.be/oigiXW6XyCQ" target="_blank"
+              ><i class="fa fa-play"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- VIDEO ENDS  -->
+
+    <!-- TESTIMONIALS STARTS  -->
+    <section class="testimonials">
+      <div class="testimonials__content box">
+        <div class="testimonials__heading">
+          <span class="span-style">TESTIMONIALS</span>
+          <h1 class="heading-style">Happy Clients & Feedbacks</h1>
+        </div>
+
+        <div class="feedbacks">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="feedbacks__content">
+                  <div class="opinion">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Non asperiores rerum modi dolore officia eius quae,
+                      delectus perspiciatis similique iure! Mollitia fuga
+                      consequuntur quas suscipit perferendis recusandae expedita
+                      alias incidunt, ex natus deserunt id, esse iusto soluta
+                      officiis!"
+                    </p>
+                    <div class="clients">
+                      <div class="picture">
+                        <img src="./img/f1.jpg" alt="" />
+                      </div>
+                      <div class="name">
+                        <h5>Julia Sakura</h5>
+                        <span>Example City</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="opinion">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Non asperiores rerum modi dolore officia eius quae,
+                      delectus perspiciatis similique iure! Mollitia fuga
+                      consequuntur quas suscipit perferendis recusandae expedita
+                      alias incidunt, ex natus deserunt id, esse iusto soluta
+                      officiis!"
+                    </p>
+                    <div class="clients">
+                      <div class="picture">
+                        <img src="./img/f2.jpg" alt="" />
+                      </div>
+                      <div class="name">
+                        <h5>Julia Sakura</h5>
+                        <span>Example City</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="feedbacks__content">
+                  <div class="opinion">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Non asperiores rerum modi dolore officia eius quae,
+                      delectus perspiciatis similique iure! Mollitia fuga
+                      consequuntur quas suscipit perferendis recusandae expedita
+                      alias incidunt, ex natus deserunt id, esse iusto soluta
+                      officiis!"
+                    </p>
+                    <div class="clients">
+                      <div class="picture">
+                        <img src="./img/f3.jpg" alt="" />
+                      </div>
+                      <div class="name">
+                        <h5>Julia Sakura</h5>
+                        <span>Example City</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="opinion">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Non asperiores rerum modi dolore officia eius quae,
+                      delectus perspiciatis similique iure! Mollitia fuga
+                      consequuntur quas suscipit perferendis recusandae expedita
+                      alias incidunt, ex natus deserunt id, esse iusto soluta
+                      officiis!"
+                    </p>
+                    <div class="clients">
+                      <div class="picture">
+                        <img src="./img/f4.jpg" alt="" />
+                      </div>
+                      <div class="name">
+                        <h5>Julia Sakura</h5>
+                        <span>Example City</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="feedbacks__content">
+                  <div class="opinion">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Non asperiores rerum modi dolore officia eius quae,
+                      delectus perspiciatis similique iure! Mollitia fuga
+                      consequuntur quas suscipit perferendis recusandae expedita
+                      alias incidunt, ex natus deserunt id, esse iusto soluta
+                      officiis!"
+                    </p>
+                    <div class="clients">
+                      <div class="picture">
+                        <img src="./img/f1.jpg" alt="" />
+                      </div>
+                      <div class="name">
+                        <h5>Julia Sakura</h5>
+                        <span>Example City</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="opinion">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Non asperiores rerum modi dolore officia eius quae,
+                      delectus perspiciatis similique iure! Mollitia fuga
+                      consequuntur quas suscipit perferendis recusandae expedita
+                      alias incidunt, ex natus deserunt id, esse iusto soluta
+                      officiis!"
+                    </p>
+                    <div class="clients">
+                      <div class="picture">
+                        <img src="./img/f2.jpg" alt="" />
+                      </div>
+                      <div class="name">
+                        <h5>Julia Sakura</h5>
+                        <span>Example City</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS ENDS -->
+
+    <!-- UPDATE STARTS  -->
+    <section class="update for__margin">
+      <div class="update__content box">
+        <div class="content__wrapper">
+          <span class="span-style">ABOUT US</span>
+          <h1 class="heading-style">We Love Your Pets Like They Are Our Own</h1>
+          <p class="p-style">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur hic odio voluptatem tenetur consequatur. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales
+            quis.
+          </p>
+          <form action="">
+            <input type="email" placeholder="Enter your email..." />
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- UPDATE ENDS  -->
+
+    <!-- CONTACT STARTS  -->
+    <section class="contact">
+      <div class="contact__content box">
+        <div class="contact__item ">
+          <h4 heading-style>Contact information</h4 heading-style>
+          <ul class="info">
+            <li>
+              Address : #135 block, Barnard St. Brooklyn, London 10036, UK
+            </li>
+            <li>Phone : +(12)234-11-24</li>
+            <li>Email : example@mail.com</li>
+          </ul>
+          <div class="icons">
+            <a href="#"><i class="fab fa-facebook-f facebook"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g google"></i></a>
+          </div>
+        </div>
+
+        
+        <div class="contact__item">
+          <h4 heading-style>Company</h4 heading-style>
+          <ul>
+  
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="contact__item">
+          <h4 heading-style>Useful Links</h4 heading-style>
+          <ul>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Create an account</a></li>
+            <li><a href="#">Care center</a></li>
+            <li><a href="#">Site feedbacks</a></li>
+          </ul>
+        </div>
+
+        <div class="contact__item">
+          <h4 heading-style>Our Services</h4 heading-style>
+          <ul>
+            <li><a href="#">All Dogs</a></li>
+            <li><a href="#">Care Advices</a></li>
+            <li><a href="#">Care Support</a></li>
+            <li><a href="#">Veterinary Help</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT ENDS  -->
+
+    <!-- FOOTER STARTS  -->
+    <footer>
+      <div class="footer__content box">
+          <p>© 2020 Pooch Care. All Rights Reserved. Design by <span>W3Layouts</span>
+          </p>
+      </div>
+
+      <div class="arrowup">
+        <a href="#slider">
+        <i class="fa fa-arrow-up"></i>
+      </a>
+      </div>
+    </footer>
+    <!-- FOOTER ENDS  -->
+   
+    <!-- end of page  -->
+    <!-- ---------links------- -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <!-- waypoint nằm dưới jquery  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- count up  -->
+    <script src="./js/jquery.countup.js"></script>
+    <script>
+      $(".counter").countUp();
+    </script>
+  </body>
+</html>
